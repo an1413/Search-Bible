@@ -1,5 +1,5 @@
-import React from 'react'
-import { appAuth } from "../firebase/fBase"
+import React, {useState} from 'react'
+import appAuth from "../firebase/fBase"
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth'
 
 export default function useSignup() {
